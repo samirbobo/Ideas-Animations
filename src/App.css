@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  font-size: 62.5%;
+  --background: #111;
+  --bg-opaque: hsla(0, 0%, 7%, 0.25);
+  --background-light: #232323;
+  --background-dark: #080808;
+  --text: #ebecf3;
+  --brand: #0aff9d;
+  --text-xs: 1.6rem;
+  --text-sm: 1.8rem;
+  --text-md: 2.2rem;
+  --text-lg: 3.6rem;
+  --text-xl: 5.6rem;
+  --text-2xl: 9.6rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #111111;
+}
+
+.hero_hero__HQvTb {
+  margin-bottom: 9.6rem;
+}
+.section-wrapper {
+  position: relative;
+  z-index: 10;
+  max-width: 1150px;
+  margin: auto;
+  padding: 9.6rem;
+  overflow: hidden;
+  color: #fff;
+}
+.hero_copyWrapper__CwXi2 {
+  position: relative;
+  z-index: 10;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 4.8rem 0;
+}
+.hero_title__Qj25Y {
+  font-size: var(--text-2xl);
+  font-weight: 900;
+  line-height: 1.1;
+}
+.hero_subTitle__gHa6t {
+  font-size: var(--text-lg);
+  line-height: 1.1;
+  margin-top: 1.6rem;
+  font-weight: 200;
+}
+.hero_subTitle__gHa6t span {
+  font-weight: 700;
+  color: var(--brand);
+}
+.hero_aboutCopy__VTnoZ {
+  margin: 2.4rem 0;
+  max-width: 700px;
+  font-weight: 200;
+  font-size: 2rem;
+}
+.standardbutton_standardButton__kderB {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 1.2rem 2.4rem;
+  background: var(--brand);
+  color: var(--background-dark);
+  font-size: var(--text-sm);
+  border-radius: 4px;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+  transition: opacity 0.2s;
+}
