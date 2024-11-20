@@ -24,7 +24,7 @@ export default function FeatureTitle({ children, id }) {
   return (
     <p
       ref={ref}
-      className={`py-16 text-5xl font-heading transition-colors ${
+      className={`feature-title py-16 text-5xl font-heading transition-colors ${
         isView ? "text-black" : "text-gray-300"
       }`}
     >
